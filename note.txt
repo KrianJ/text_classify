@@ -1,0 +1,10 @@
+可调参处
+1. fea_extract.py ---> 训练词向量Word2Vec模型选择
+2. n折交叉验证
+2. SVM参数：核函数
+
+运行顺序
+data_preview.py : 读取，分词，写入
+tf-idf.py : 计算词向量权重
+fea_extract.py : 转词向量，特征提取，进行加权
+training.py : 划分数据集，svm训练，验证和测试

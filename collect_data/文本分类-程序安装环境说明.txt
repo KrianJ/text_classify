@@ -1,0 +1,17 @@
+系统环境：
+    硬件：i7-7700hq,主频2.8Ghz，睿频3.5Ghz，内存(16+8)G
+    软件：Windows 10
+
+IDE: Pycharm 2018.1
+
+虚拟环境：
+    Python3.6
+    Py-module-requirements：jieba, numpy, pandas, genism, sklearn
+    (模块均通过pip安装，使用清华大学镜像地址)
+    ** Conda环境下安装pandas模块使用时会抛异常，可能是模块版本冲突问题。
+
+数据集路径
+    text_classify\text_resource\ChineseNlpCorpus-master\datasets\ChnSentiCorp_htl_all
+
+数据集源地址：https://github.com/SophonPlus/ChineseNlpCorpus
+
